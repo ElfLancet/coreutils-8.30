@@ -1,3 +1,5 @@
+ATTENTION: this source code is downloaded from: https://launchpad.net/ubuntu/+source/coreutils/8.30-3ubuntu2
+
 These are the GNU core utilities.  This package is the union of
 the GNU fileutils, sh-utils, and textutils packages.
 
