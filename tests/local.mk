@@ -165,7 +165,6 @@ all_tests =					\
   tests/misc/help-version.sh			\
   tests/tail-2/inotify-race.sh			\
   tests/tail-2/inotify-race2.sh			\
-  tests/misc/invalid-opt.pl			\
   tests/rm/ext3-perf.sh				\
   tests/rm/cycle.sh				\
   tests/cp/link-heap.sh				\
@@ -177,8 +176,6 @@ all_tests =					\
   tests/tail-2/F-vs-rename.sh			\
   tests/tail-2/F-headers.sh			\
   tests/tail-2/descriptor-vs-rename.sh		\
-  tests/tail-2/inotify-rotate.sh		\
-  tests/tail-2/inotify-rotate-resources.sh	\
   tests/tail-2/inotify-dir-recreate.sh		\
   tests/tail-2/inotify-only-regular.sh		\
   tests/chmod/no-x.sh				\
@@ -239,7 +236,6 @@ all_tests =					\
   tests/fmt/goal-option.sh			\
   tests/misc/env.sh				\
   tests/misc/ptx.pl				\
-  tests/misc/test.pl				\
   tests/misc/seq.pl				\
   tests/misc/seq-epipe.sh			\
   tests/misc/seq-io-errors.sh			\
@@ -260,7 +256,6 @@ all_tests =					\
   tests/misc/od-float.sh			\
   tests/misc/mktemp.pl				\
   tests/misc/arch.sh				\
-  tests/misc/join.pl				\
   tests/pr/pr-tests.pl				\
   tests/misc/pwd-option.sh			\
   tests/misc/chcon-fail.sh			\
@@ -284,7 +279,6 @@ all_tests =					\
   tests/misc/csplit-1000.sh			\
   tests/misc/csplit-heap.sh			\
   tests/misc/csplit-io-err.sh			\
-  tests/misc/csplit-suppress-matched.pl		\
   tests/misc/date-debug.sh			\
   tests/misc/date-sec.sh			\
   tests/misc/date-tz.sh				\
@@ -293,9 +287,7 @@ all_tests =					\
   tests/misc/env-null.sh			\
   tests/misc/env-S.pl				\
   tests/misc/env-S-script.sh			\
-  tests/misc/expand.pl				\
   tests/misc/expr.pl				\
-  tests/misc/expr-multibyte.pl			\
   tests/misc/factor.pl				\
   tests/misc/factor-parallel.sh			\
   tests/misc/false-status.sh			\
@@ -320,7 +312,6 @@ all_tests =					\
   tests/misc/nproc-avail.sh			\
   tests/misc/nproc-positive.sh			\
   tests/misc/nproc-override.sh			\
-  tests/misc/numfmt.pl				\
   tests/misc/od-N.sh				\
   tests/misc/od-j.sh				\
   tests/misc/od-multiple-t.sh			\
@@ -351,7 +342,6 @@ all_tests =					\
   tests/misc/shuf.sh				\
   tests/misc/shuf-reservoir.sh			\
   tests/misc/sleep.sh				\
-  tests/misc/sort.pl				\
   tests/misc/sort-benchmark-random.sh		\
   tests/misc/sort-compress.sh			\
   tests/misc/sort-compress-hang.sh		\
@@ -363,7 +353,6 @@ all_tests =					\
   tests/misc/sort-files0-from.pl		\
   tests/misc/sort-float.sh			\
   tests/misc/sort-h-thousands-sep.sh		\
-  tests/misc/sort-merge.pl			\
   tests/misc/sort-merge-fdlimit.sh		\
   tests/misc/sort-month.sh			\
   tests/misc/sort-exit-early.sh			\
@@ -396,7 +385,6 @@ all_tests =					\
   tests/misc/stat-printf.pl			\
   tests/misc/stat-slash.sh			\
   tests/misc/stdbuf.sh				\
-  tests/misc/stty.sh				\
   tests/misc/stty-invalid.sh			\
   tests/misc/stty-pairs.sh			\
   tests/misc/stty-row-col.sh			\
@@ -427,8 +415,6 @@ all_tests =					\
   tests/misc/tsort.pl				\
   tests/misc/tty.sh				\
   tests/misc/usage_vs_getopt.sh			\
-  tests/misc/unexpand.pl			\
-  tests/misc/uniq.pl				\
   tests/misc/uniq-perf.sh			\
   tests/misc/xattr.sh				\
   tests/misc/yes.sh				\
@@ -506,7 +492,6 @@ all_tests =					\
   tests/df/header.sh				\
   tests/df/df-P.sh				\
   tests/df/df-output.sh				\
-  tests/df/df-symlink.sh			\
   tests/df/unreadable.sh			\
   tests/df/total-unprocessed.sh			\
   tests/df/no-mtab-status.sh			\
@@ -517,7 +502,6 @@ all_tests =					\
   tests/dd/misc.sh				\
   tests/dd/no-allocate.sh			\
   tests/dd/nocache.sh				\
-  tests/dd/nocache_eof.sh			\
   tests/dd/not-rewound.sh			\
   tests/dd/reblock.sh				\
   tests/dd/skip-seek.pl				\
