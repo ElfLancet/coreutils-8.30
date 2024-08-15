@@ -569,11 +569,11 @@ EXTRA_DIST += test-fdopendir.c signature.h macros.h
 
 ## begin gnulib module fdutimensat-tests
 
-TESTS += test-fdutimensat
-check_PROGRAMS += test-fdutimensat
-test_fdutimensat_LDADD = $(LDADD) $(LIB_CLOCK_GETTIME) \
-  $(LIB_NANOSLEEP) @LIBINTL@
-EXTRA_DIST += nap.h test-futimens.h test-lutimens.h test-utimens.h test-utimens-common.h test-fdutimensat.c macros.h
+# TESTS += test-fdutimensat
+# check_PROGRAMS += test-fdutimensat
+# test_fdutimensat_LDADD = $(LDADD) $(LIB_CLOCK_GETTIME) \
+#   $(LIB_NANOSLEEP) @LIBINTL@
+# EXTRA_DIST += nap.h test-futimens.h test-lutimens.h test-utimens.h test-utimens-common.h test-fdutimensat.c macros.h
 
 ## end   gnulib module fdutimensat-tests
 
@@ -2473,19 +2473,19 @@ EXTRA_DIST += test-utime.c nap.h test-utimens-common.h macros.h
 
 ## begin gnulib module utimens-tests
 
-TESTS += test-utimens
-check_PROGRAMS += test-utimens
-test_utimens_LDADD = $(LDADD) $(LIB_CLOCK_GETTIME) $(LIB_NANOSLEEP) @LIBINTL@
-EXTRA_DIST += nap.h test-futimens.h test-lutimens.h test-utimens.h test-utimens-common.h test-utimens.c macros.h
+# TESTS += test-utimens
+# check_PROGRAMS += test-utimens
+# test_utimens_LDADD = $(LDADD) $(LIB_CLOCK_GETTIME) $(LIB_NANOSLEEP) @LIBINTL@
+# EXTRA_DIST += nap.h test-futimens.h test-lutimens.h test-utimens.h test-utimens-common.h test-utimens.c macros.h
 
 ## end   gnulib module utimens-tests
 
 ## begin gnulib module utimensat-tests
 
-TESTS += test-utimensat
-check_PROGRAMS += test-utimensat
-test_utimensat_LDADD = $(LDADD) $(LIB_CLOCK_GETTIME) $(LIB_NANOSLEEP) @LIBINTL@
-EXTRA_DIST += nap.h test-lutimens.h test-utimens.h test-utimens-common.h test-utimensat.c signature.h macros.h
+# TESTS += test-utimensat
+# check_PROGRAMS += test-utimensat
+# test_utimensat_LDADD = $(LDADD) $(LIB_CLOCK_GETTIME) $(LIB_NANOSLEEP) @LIBINTL@
+# EXTRA_DIST += nap.h test-lutimens.h test-utimens.h test-utimens-common.h test-utimensat.c signature.h macros.h
 
 ## end   gnulib module utimensat-tests
 

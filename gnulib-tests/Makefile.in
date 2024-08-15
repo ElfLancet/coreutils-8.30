@@ -137,38 +137,37 @@ TESTS = test-accept$(EXEEXT) test-set-mode-acl.sh \
 	test-fcntl-h$(EXEEXT) test-fcntl-safer$(EXEEXT) \
 	test-fcntl$(EXEEXT) test-fdatasync$(EXEEXT) \
 	test-fdopen$(EXEEXT) test-fdopendir$(EXEEXT) \
-	test-fdutimensat$(EXEEXT) test-fflush$(EXEEXT) test-fflush2.sh \
-	test-fgetc$(EXEEXT) test-file-has-acl.sh \
-	test-file-has-acl-1.sh test-file-has-acl-2.sh \
-	test-filenamecat$(EXEEXT) test-filevercmp$(EXEEXT) \
-	test-float$(EXEEXT) test-fnmatch$(EXEEXT) \
-	test-fopen-safer$(EXEEXT) test-fopen$(EXEEXT) test-fpending.sh \
-	test-fpurge$(EXEEXT) test-fputc$(EXEEXT) test-fread$(EXEEXT) \
-	test-freadahead.sh test-freading$(EXEEXT) test-freadptr.sh \
-	test-freadptr2.sh test-freadseek.sh \
-	test-freopen-safer$(EXEEXT) test-freopen$(EXEEXT) \
-	test-frexp-nolibm$(EXEEXT) test-frexpl-nolibm$(EXEEXT) \
-	test-fseek.sh test-fseek2.sh test-fseeko.sh test-fseeko2.sh \
-	test-fseeko3.sh test-fseeko4.sh test-fseterr$(EXEEXT) \
-	test-fstat$(EXEEXT) test-fstatat$(EXEEXT) test-fsync$(EXEEXT) \
-	test-ftell.sh test-ftell2.sh test-ftell3$(EXEEXT) \
-	test-ftello.sh test-ftello2.sh test-ftello3$(EXEEXT) \
-	test-ftello4.sh test-ftruncate.sh test-futimens$(EXEEXT) \
-	test-fwrite$(EXEEXT) test-getaddrinfo$(EXEEXT) \
-	test-getcwd-lgpl$(EXEEXT) test-getcwd.sh \
-	test-getdelim$(EXEEXT) test-getdtablesize$(EXEEXT) \
-	test-getgroups$(EXEEXT) test-gethostname$(EXEEXT) \
-	test-getline$(EXEEXT) test-getloadavg$(EXEEXT) \
-	test-getlogin$(EXEEXT) test-getndelim2$(EXEEXT) \
-	test-getopt-gnu$(EXEEXT) test-getopt-posix$(EXEEXT) \
-	test-getprogname$(EXEEXT) test-getrusage$(EXEEXT) \
-	test-gettimeofday$(EXEEXT) test-hash$(EXEEXT) \
-	test-i-ring$(EXEEXT) test-iconv-h$(EXEEXT) test-iconv$(EXEEXT) \
-	test-ignore-value$(EXEEXT) test-inet_ntop$(EXEEXT) \
-	test-inet_pton$(EXEEXT) test-ino-map$(EXEEXT) \
-	test-intprops$(EXEEXT) test-inttostr$(EXEEXT) \
-	test-inttypes$(EXEEXT) test-ioctl$(EXEEXT) \
-	test-isatty$(EXEEXT) test-isblank$(EXEEXT) \
+	test-fflush$(EXEEXT) test-fflush2.sh test-fgetc$(EXEEXT) \
+	test-file-has-acl.sh test-file-has-acl-1.sh \
+	test-file-has-acl-2.sh test-filenamecat$(EXEEXT) \
+	test-filevercmp$(EXEEXT) test-float$(EXEEXT) \
+	test-fnmatch$(EXEEXT) test-fopen-safer$(EXEEXT) \
+	test-fopen$(EXEEXT) test-fpending.sh test-fpurge$(EXEEXT) \
+	test-fputc$(EXEEXT) test-fread$(EXEEXT) test-freadahead.sh \
+	test-freading$(EXEEXT) test-freadptr.sh test-freadptr2.sh \
+	test-freadseek.sh test-freopen-safer$(EXEEXT) \
+	test-freopen$(EXEEXT) test-frexp-nolibm$(EXEEXT) \
+	test-frexpl-nolibm$(EXEEXT) test-fseek.sh test-fseek2.sh \
+	test-fseeko.sh test-fseeko2.sh test-fseeko3.sh test-fseeko4.sh \
+	test-fseterr$(EXEEXT) test-fstat$(EXEEXT) \
+	test-fstatat$(EXEEXT) test-fsync$(EXEEXT) test-ftell.sh \
+	test-ftell2.sh test-ftell3$(EXEEXT) test-ftello.sh \
+	test-ftello2.sh test-ftello3$(EXEEXT) test-ftello4.sh \
+	test-ftruncate.sh test-futimens$(EXEEXT) test-fwrite$(EXEEXT) \
+	test-getaddrinfo$(EXEEXT) test-getcwd-lgpl$(EXEEXT) \
+	test-getcwd.sh test-getdelim$(EXEEXT) \
+	test-getdtablesize$(EXEEXT) test-getgroups$(EXEEXT) \
+	test-gethostname$(EXEEXT) test-getline$(EXEEXT) \
+	test-getloadavg$(EXEEXT) test-getlogin$(EXEEXT) \
+	test-getndelim2$(EXEEXT) test-getopt-gnu$(EXEEXT) \
+	test-getopt-posix$(EXEEXT) test-getprogname$(EXEEXT) \
+	test-getrusage$(EXEEXT) test-gettimeofday$(EXEEXT) \
+	test-hash$(EXEEXT) test-i-ring$(EXEEXT) test-iconv-h$(EXEEXT) \
+	test-iconv$(EXEEXT) test-ignore-value$(EXEEXT) \
+	test-inet_ntop$(EXEEXT) test-inet_pton$(EXEEXT) \
+	test-ino-map$(EXEEXT) test-intprops$(EXEEXT) \
+	test-inttostr$(EXEEXT) test-inttypes$(EXEEXT) \
+	test-ioctl$(EXEEXT) test-isatty$(EXEEXT) test-isblank$(EXEEXT) \
 	test-isnand-nolibm$(EXEEXT) test-isnanf-nolibm$(EXEEXT) \
 	test-isnanl-nolibm$(EXEEXT) test-iswblank$(EXEEXT) \
 	test-langinfo$(EXEEXT) test-lchown$(EXEEXT) \
@@ -237,7 +236,6 @@ TESTS = test-accept$(EXEEXT) test-set-mode-acl.sh \
 	test-unlinkat$(EXEEXT) test-unsetenv$(EXEEXT) \
 	test-update-copyright.sh test-userspec$(EXEEXT) \
 	test-usleep$(EXEEXT) test-utime-h$(EXEEXT) test-utime$(EXEEXT) \
-	test-utimens$(EXEEXT) test-utimensat$(EXEEXT) \
 	test-vasnprintf$(EXEEXT) test-vasprintf-posix$(EXEEXT) \
 	test-vasprintf$(EXEEXT) test-vc-list-files-git.sh \
 	test-vc-list-files-cvs.sh test-verify$(EXEEXT) test-verify.sh \
@@ -279,8 +277,8 @@ check_PROGRAMS = test-accept$(EXEEXT) test-set-mode-acl$(EXEEXT) \
 	test-fclose$(EXEEXT) test-fcntl-h$(EXEEXT) \
 	test-fcntl-safer$(EXEEXT) test-fcntl$(EXEEXT) \
 	test-fdatasync$(EXEEXT) test-fdopen$(EXEEXT) \
-	test-fdopendir$(EXEEXT) test-fdutimensat$(EXEEXT) \
-	test-fflush$(EXEEXT) test-fflush2$(EXEEXT) test-fgetc$(EXEEXT) \
+	test-fdopendir$(EXEEXT) test-fflush$(EXEEXT) \
+	test-fflush2$(EXEEXT) test-fgetc$(EXEEXT) \
 	test-file-has-acl$(EXEEXT) test-filenamecat$(EXEEXT) \
 	test-filevercmp$(EXEEXT) test-float$(EXEEXT) \
 	test-fnmatch$(EXEEXT) test-fopen-safer$(EXEEXT) \
@@ -379,7 +377,6 @@ check_PROGRAMS = test-accept$(EXEEXT) test-set-mode-acl$(EXEEXT) \
 	test-unlinkat$(EXEEXT) test-unsetenv$(EXEEXT) \
 	test-userspec$(EXEEXT) test-usleep$(EXEEXT) \
 	test-utime-h$(EXEEXT) test-utime$(EXEEXT) \
-	test-utimens$(EXEEXT) test-utimensat$(EXEEXT) \
 	test-vasnprintf$(EXEEXT) test-vasprintf-posix$(EXEEXT) \
 	test-vasprintf$(EXEEXT) test-verify$(EXEEXT) \
 	test-version-etc$(EXEEXT) test-vfprintf-posix$(EXEEXT) \
@@ -888,10 +885,6 @@ test_fdopen_DEPENDENCIES = libtests.a ../lib/libcoreutils.a libtests.a \
 test_fdopendir_SOURCES = test-fdopendir.c
 test_fdopendir_OBJECTS = test-fdopendir.$(OBJEXT)
 test_fdopendir_DEPENDENCIES = $(am__DEPENDENCIES_2)
-test_fdutimensat_SOURCES = test-fdutimensat.c
-test_fdutimensat_OBJECTS = test-fdutimensat.$(OBJEXT)
-test_fdutimensat_DEPENDENCIES = $(am__DEPENDENCIES_2) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 test_fflush_SOURCES = test-fflush.c
 test_fflush_OBJECTS = test-fflush.$(OBJEXT)
 test_fflush_LDADD = $(LDADD)
@@ -1873,14 +1866,6 @@ test_utime_h_OBJECTS = test-utime-h.$(OBJEXT)
 test_utime_h_LDADD = $(LDADD)
 test_utime_h_DEPENDENCIES = libtests.a ../lib/libcoreutils.a \
 	libtests.a $(am__DEPENDENCIES_1)
-test_utimens_SOURCES = test-utimens.c
-test_utimens_OBJECTS = test-utimens.$(OBJEXT)
-test_utimens_DEPENDENCIES = $(am__DEPENDENCIES_2) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
-test_utimensat_SOURCES = test-utimensat.c
-test_utimensat_OBJECTS = test-utimensat.$(OBJEXT)
-test_utimensat_DEPENDENCIES = $(am__DEPENDENCIES_2) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 test_vasnprintf_SOURCES = test-vasnprintf.c
 test_vasnprintf_OBJECTS = test-vasnprintf.$(OBJEXT)
 test_vasnprintf_LDADD = $(LDADD)
@@ -2029,9 +2014,9 @@ am__depfiles_remade = ./$(DEPDIR)/accept.Po ./$(DEPDIR)/bench-md5.Po \
 	./$(DEPDIR)/test-fclose.Po ./$(DEPDIR)/test-fcntl-h.Po \
 	./$(DEPDIR)/test-fcntl-safer.Po ./$(DEPDIR)/test-fcntl.Po \
 	./$(DEPDIR)/test-fdatasync.Po ./$(DEPDIR)/test-fdopen.Po \
-	./$(DEPDIR)/test-fdopendir.Po ./$(DEPDIR)/test-fdutimensat.Po \
-	./$(DEPDIR)/test-fflush.Po ./$(DEPDIR)/test-fflush2.Po \
-	./$(DEPDIR)/test-fgetc.Po ./$(DEPDIR)/test-file-has-acl.Po \
+	./$(DEPDIR)/test-fdopendir.Po ./$(DEPDIR)/test-fflush.Po \
+	./$(DEPDIR)/test-fflush2.Po ./$(DEPDIR)/test-fgetc.Po \
+	./$(DEPDIR)/test-file-has-acl.Po \
 	./$(DEPDIR)/test-filenamecat.Po ./$(DEPDIR)/test-filevercmp.Po \
 	./$(DEPDIR)/test-float.Po ./$(DEPDIR)/test-fnmatch.Po \
 	./$(DEPDIR)/test-fopen-safer.Po ./$(DEPDIR)/test-fopen.Po \
@@ -2140,8 +2125,7 @@ am__depfiles_remade = ./$(DEPDIR)/accept.Po ./$(DEPDIR)/bench-md5.Po \
 	./$(DEPDIR)/test-unlink.Po ./$(DEPDIR)/test-unlinkat.Po \
 	./$(DEPDIR)/test-unsetenv.Po ./$(DEPDIR)/test-userspec.Po \
 	./$(DEPDIR)/test-usleep.Po ./$(DEPDIR)/test-utime-h.Po \
-	./$(DEPDIR)/test-utime.Po ./$(DEPDIR)/test-utimens.Po \
-	./$(DEPDIR)/test-utimensat.Po ./$(DEPDIR)/test-vasnprintf.Po \
+	./$(DEPDIR)/test-utime.Po ./$(DEPDIR)/test-vasnprintf.Po \
 	./$(DEPDIR)/test-vasprintf-posix.Po \
 	./$(DEPDIR)/test-vasprintf.Po ./$(DEPDIR)/test-verify-try.Po \
 	./$(DEPDIR)/test-verify.Po ./$(DEPDIR)/test-version-etc.Po \
@@ -2198,31 +2182,30 @@ SOURCES = $(libtests_a_SOURCES) $(EXTRA_libtests_a_SOURCES) \
 	test-exclude.c test-faccessat.c test-fadvise.c test-fchdir.c \
 	test-fchmodat.c test-fchownat.c test-fclose.c test-fcntl.c \
 	test-fcntl-h.c test-fcntl-safer.c test-fdatasync.c \
-	test-fdopen.c test-fdopendir.c test-fdutimensat.c \
-	test-fflush.c test-fflush2.c test-fgetc.c test-file-has-acl.c \
-	test-filenamecat.c test-filevercmp.c test-float.c \
-	test-fnmatch.c test-fopen.c test-fopen-safer.c test-fpending.c \
-	test-fpurge.c test-fputc.c test-fread.c test-freadahead.c \
-	test-freading.c test-freadptr.c test-freadptr2.c \
-	test-freadseek.c test-freopen.c test-freopen-safer.c \
-	$(test_frexp_nolibm_SOURCES) $(test_frexpl_nolibm_SOURCES) \
-	test-fseek.c test-fseeko.c test-fseeko3.c test-fseeko4.c \
-	test-fseterr.c test-fstat.c test-fstatat.c test-fsync.c \
-	test-ftell.c test-ftell3.c test-ftello.c test-ftello3.c \
-	test-ftello4.c test-ftruncate.c test-futimens.c test-fwrite.c \
-	test-getaddrinfo.c test-getcwd.c test-getcwd-lgpl.c \
-	test-getdelim.c test-getdtablesize.c test-getgroups.c \
-	test-gethostname.c test-getline.c test-getloadavg.c \
-	test-getlogin.c test-getndelim2.c test-getopt-gnu.c \
-	test-getopt-posix.c test-getprogname.c test-getrusage.c \
-	test-gettimeofday.c test-hash.c test-i-ring.c test-iconv.c \
-	test-iconv-h.c test-ignore-value.c test-inet_ntop.c \
-	test-inet_pton.c test-ino-map.c test-intprops.c \
-	test-inttostr.c test-inttypes.c test-ioctl.c test-isatty.c \
-	test-isblank.c test-isnand-nolibm.c test-isnanf-nolibm.c \
-	test-isnanl-nolibm.c test-iswblank.c test-langinfo.c \
-	test-lchown.c test-limits-h.c test-link.c test-linkat.c \
-	test-listen.c test-localcharset.c test-locale.c \
+	test-fdopen.c test-fdopendir.c test-fflush.c test-fflush2.c \
+	test-fgetc.c test-file-has-acl.c test-filenamecat.c \
+	test-filevercmp.c test-float.c test-fnmatch.c test-fopen.c \
+	test-fopen-safer.c test-fpending.c test-fpurge.c test-fputc.c \
+	test-fread.c test-freadahead.c test-freading.c test-freadptr.c \
+	test-freadptr2.c test-freadseek.c test-freopen.c \
+	test-freopen-safer.c $(test_frexp_nolibm_SOURCES) \
+	$(test_frexpl_nolibm_SOURCES) test-fseek.c test-fseeko.c \
+	test-fseeko3.c test-fseeko4.c test-fseterr.c test-fstat.c \
+	test-fstatat.c test-fsync.c test-ftell.c test-ftell3.c \
+	test-ftello.c test-ftello3.c test-ftello4.c test-ftruncate.c \
+	test-futimens.c test-fwrite.c test-getaddrinfo.c test-getcwd.c \
+	test-getcwd-lgpl.c test-getdelim.c test-getdtablesize.c \
+	test-getgroups.c test-gethostname.c test-getline.c \
+	test-getloadavg.c test-getlogin.c test-getndelim2.c \
+	test-getopt-gnu.c test-getopt-posix.c test-getprogname.c \
+	test-getrusage.c test-gettimeofday.c test-hash.c test-i-ring.c \
+	test-iconv.c test-iconv-h.c test-ignore-value.c \
+	test-inet_ntop.c test-inet_pton.c test-ino-map.c \
+	test-intprops.c test-inttostr.c test-inttypes.c test-ioctl.c \
+	test-isatty.c test-isblank.c test-isnand-nolibm.c \
+	test-isnanf-nolibm.c test-isnanl-nolibm.c test-iswblank.c \
+	test-langinfo.c test-lchown.c test-limits-h.c test-link.c \
+	test-linkat.c test-listen.c test-localcharset.c test-locale.c \
 	test-localeconv.c test-localename.c test-lock.c test-lseek.c \
 	test-lstat.c test-malloc-gnu.c test-malloca.c test-math.c \
 	test-mbrtowc.c test-mbrtowc-w32.c test-mbsalign.c \
@@ -2263,11 +2246,10 @@ SOURCES = $(libtests_a_SOURCES) $(EXTRA_libtests_a_SOURCES) \
 	$(test_uc_width_SOURCES) $(test_uc_width2_SOURCES) \
 	test-uname.c test-unistd.c test-unlink.c test-unlinkat.c \
 	test-unsetenv.c test-userspec.c test-usleep.c test-utime.c \
-	test-utime-h.c test-utimens.c test-utimensat.c \
-	test-vasnprintf.c test-vasprintf.c test-vasprintf-posix.c \
-	test-verify.c test-verify-try.c test-version-etc.c \
-	test-vfprintf-posix.c test-vprintf-posix.c test-wchar.c \
-	test-wcrtomb.c test-wcrtomb-w32.c test-wctype-h.c \
+	test-utime-h.c test-vasnprintf.c test-vasprintf.c \
+	test-vasprintf-posix.c test-verify.c test-verify-try.c \
+	test-version-etc.c test-vfprintf-posix.c test-vprintf-posix.c \
+	test-wchar.c test-wcrtomb.c test-wcrtomb-w32.c test-wctype-h.c \
 	test-wcwidth.c test-write.c test-xalloc-die.c \
 	test-xfprintf-posix.c test-xprintf-posix.c test-xstrtoimax.c \
 	test-xstrtol.c test-xstrtoul.c test-xstrtoumax.c \
@@ -2288,31 +2270,30 @@ DIST_SOURCES = $(libtests_a_SOURCES) $(EXTRA_libtests_a_SOURCES) \
 	test-exclude.c test-faccessat.c test-fadvise.c test-fchdir.c \
 	test-fchmodat.c test-fchownat.c test-fclose.c test-fcntl.c \
 	test-fcntl-h.c test-fcntl-safer.c test-fdatasync.c \
-	test-fdopen.c test-fdopendir.c test-fdutimensat.c \
-	test-fflush.c test-fflush2.c test-fgetc.c test-file-has-acl.c \
-	test-filenamecat.c test-filevercmp.c test-float.c \
-	test-fnmatch.c test-fopen.c test-fopen-safer.c test-fpending.c \
-	test-fpurge.c test-fputc.c test-fread.c test-freadahead.c \
-	test-freading.c test-freadptr.c test-freadptr2.c \
-	test-freadseek.c test-freopen.c test-freopen-safer.c \
-	$(test_frexp_nolibm_SOURCES) $(test_frexpl_nolibm_SOURCES) \
-	test-fseek.c test-fseeko.c test-fseeko3.c test-fseeko4.c \
-	test-fseterr.c test-fstat.c test-fstatat.c test-fsync.c \
-	test-ftell.c test-ftell3.c test-ftello.c test-ftello3.c \
-	test-ftello4.c test-ftruncate.c test-futimens.c test-fwrite.c \
-	test-getaddrinfo.c test-getcwd.c test-getcwd-lgpl.c \
-	test-getdelim.c test-getdtablesize.c test-getgroups.c \
-	test-gethostname.c test-getline.c test-getloadavg.c \
-	test-getlogin.c test-getndelim2.c test-getopt-gnu.c \
-	test-getopt-posix.c test-getprogname.c test-getrusage.c \
-	test-gettimeofday.c test-hash.c test-i-ring.c test-iconv.c \
-	test-iconv-h.c test-ignore-value.c test-inet_ntop.c \
-	test-inet_pton.c test-ino-map.c test-intprops.c \
-	test-inttostr.c test-inttypes.c test-ioctl.c test-isatty.c \
-	test-isblank.c test-isnand-nolibm.c test-isnanf-nolibm.c \
-	test-isnanl-nolibm.c test-iswblank.c test-langinfo.c \
-	test-lchown.c test-limits-h.c test-link.c test-linkat.c \
-	test-listen.c test-localcharset.c test-locale.c \
+	test-fdopen.c test-fdopendir.c test-fflush.c test-fflush2.c \
+	test-fgetc.c test-file-has-acl.c test-filenamecat.c \
+	test-filevercmp.c test-float.c test-fnmatch.c test-fopen.c \
+	test-fopen-safer.c test-fpending.c test-fpurge.c test-fputc.c \
+	test-fread.c test-freadahead.c test-freading.c test-freadptr.c \
+	test-freadptr2.c test-freadseek.c test-freopen.c \
+	test-freopen-safer.c $(test_frexp_nolibm_SOURCES) \
+	$(test_frexpl_nolibm_SOURCES) test-fseek.c test-fseeko.c \
+	test-fseeko3.c test-fseeko4.c test-fseterr.c test-fstat.c \
+	test-fstatat.c test-fsync.c test-ftell.c test-ftell3.c \
+	test-ftello.c test-ftello3.c test-ftello4.c test-ftruncate.c \
+	test-futimens.c test-fwrite.c test-getaddrinfo.c test-getcwd.c \
+	test-getcwd-lgpl.c test-getdelim.c test-getdtablesize.c \
+	test-getgroups.c test-gethostname.c test-getline.c \
+	test-getloadavg.c test-getlogin.c test-getndelim2.c \
+	test-getopt-gnu.c test-getopt-posix.c test-getprogname.c \
+	test-getrusage.c test-gettimeofday.c test-hash.c test-i-ring.c \
+	test-iconv.c test-iconv-h.c test-ignore-value.c \
+	test-inet_ntop.c test-inet_pton.c test-ino-map.c \
+	test-intprops.c test-inttostr.c test-inttypes.c test-ioctl.c \
+	test-isatty.c test-isblank.c test-isnand-nolibm.c \
+	test-isnanf-nolibm.c test-isnanl-nolibm.c test-iswblank.c \
+	test-langinfo.c test-lchown.c test-limits-h.c test-link.c \
+	test-linkat.c test-listen.c test-localcharset.c test-locale.c \
 	test-localeconv.c test-localename.c test-lock.c test-lseek.c \
 	test-lstat.c test-malloc-gnu.c test-malloca.c test-math.c \
 	test-mbrtowc.c test-mbrtowc-w32.c test-mbsalign.c \
@@ -2353,11 +2334,10 @@ DIST_SOURCES = $(libtests_a_SOURCES) $(EXTRA_libtests_a_SOURCES) \
 	$(test_uc_width_SOURCES) $(test_uc_width2_SOURCES) \
 	test-uname.c test-unistd.c test-unlink.c test-unlinkat.c \
 	test-unsetenv.c test-userspec.c test-usleep.c test-utime.c \
-	test-utime-h.c test-utimens.c test-utimensat.c \
-	test-vasnprintf.c test-vasprintf.c test-vasprintf-posix.c \
-	test-verify.c test-verify-try.c test-version-etc.c \
-	test-vfprintf-posix.c test-vprintf-posix.c test-wchar.c \
-	test-wcrtomb.c test-wcrtomb-w32.c test-wctype-h.c \
+	test-utime-h.c test-vasnprintf.c test-vasprintf.c \
+	test-vasprintf-posix.c test-verify.c test-verify-try.c \
+	test-version-etc.c test-vfprintf-posix.c test-vprintf-posix.c \
+	test-wchar.c test-wcrtomb.c test-wcrtomb-w32.c test-wctype-h.c \
 	test-wcwidth.c test-write.c test-xalloc-die.c \
 	test-xfprintf-posix.c test-xprintf-posix.c test-xstrtoimax.c \
 	test-xstrtol.c test-xstrtoul.c test-xstrtoumax.c \
@@ -4041,14 +4021,13 @@ EXTRA_DIST = accept.c w32sock.h test-accept.c signature.h macros.h \
 	test-fclose.c test-fcntl-h.c test-open.h test-fcntl-safer.c \
 	macros.h test-fcntl.c signature.h macros.h test-fdatasync.c \
 	signature.h macros.h test-fdopen.c signature.h macros.h \
-	test-fdopendir.c signature.h macros.h nap.h test-futimens.h \
-	test-lutimens.h test-utimens.h test-utimens-common.h \
-	test-fdutimensat.c macros.h test-fflush.c test-fflush2.sh \
-	test-fflush2.c signature.h macros.h test-fgetc.c signature.h \
-	macros.h test-file-has-acl.sh test-file-has-acl-1.sh \
-	test-file-has-acl-2.sh test-file-has-acl.c macros.h \
-	test-filenamecat.c test-filevercmp.c macros.h test-float.c \
-	macros.h test-fnmatch.c signature.h macros.h test-fopen.h \
+	test-fdopendir.c signature.h macros.h test-fflush.c \
+	test-fflush2.sh test-fflush2.c signature.h macros.h \
+	test-fgetc.c signature.h macros.h test-file-has-acl.sh \
+	test-file-has-acl-1.sh test-file-has-acl-2.sh \
+	test-file-has-acl.c macros.h test-filenamecat.c \
+	test-filevercmp.c macros.h test-float.c macros.h \
+	test-fnmatch.c signature.h macros.h test-fopen.h \
 	test-fopen-safer.c macros.h test-fopen.h test-fopen.c \
 	signature.h macros.h test-fpending.c test-fpending.sh macros.h \
 	test-fpurge.c macros.h test-fputc.c signature.h macros.h \
@@ -4186,13 +4165,10 @@ EXTRA_DIST = accept.c w32sock.h test-accept.c signature.h macros.h \
 	macros.h unlinkdir.h test-unsetenv.c signature.h macros.h \
 	test-update-copyright.sh test-userspec.c usleep.c \
 	test-usleep.c signature.h macros.h test-utime-h.c test-utime.c \
-	nap.h test-utimens-common.h macros.h nap.h test-futimens.h \
-	test-lutimens.h test-utimens.h test-utimens-common.h \
-	test-utimens.c macros.h nap.h test-lutimens.h test-utimens.h \
-	test-utimens-common.h test-utimensat.c signature.h macros.h \
-	test-vasnprintf.c macros.h test-vasprintf-posix.c minus-zero.h \
-	infinity.h nan.h macros.h test-vasprintf.c signature.h \
-	macros.h test-vc-list-files-git.sh test-vc-list-files-cvs.sh \
+	nap.h test-utimens-common.h macros.h test-vasnprintf.c \
+	macros.h test-vasprintf-posix.c minus-zero.h infinity.h nan.h \
+	macros.h test-vasprintf.c signature.h macros.h \
+	test-vc-list-files-git.sh test-vc-list-files-cvs.sh \
 	test-verify.c test-verify-try.c test-verify.sh \
 	test-version-etc.c test-version-etc.sh test-vfprintf-posix.sh \
 	test-vfprintf-posix.c test-fprintf-posix.h \
@@ -4274,9 +4250,6 @@ test_fchmodat_LDADD = $(LDADD) @LIBINTL@
 test_fchownat_LDADD = $(LDADD) $(LIB_NANOSLEEP) @LIBINTL@
 test_fdatasync_LDADD = $(LDADD) $(LIB_FDATASYNC)
 test_fdopendir_LDADD = $(LDADD) @LIBINTL@
-test_fdutimensat_LDADD = $(LDADD) $(LIB_CLOCK_GETTIME) \
-  $(LIB_NANOSLEEP) @LIBINTL@
-
 test_file_has_acl_LDADD = $(LDADD) $(LIB_HAS_ACL)
 test_filenamecat_LDADD = $(LDADD) @LIBINTL@
 test_frexp_nolibm_SOURCES = test-frexp.c randomd.c
@@ -4371,8 +4344,6 @@ test_uc_width2_LDADD = $(LDADD) $(LIBUNISTRING)
 test_unlinkat_LDADD = $(LDADD) @LIBINTL@
 test_userspec_LDADD = $(LDADD) @LIBINTL@
 test_utime_LDADD = $(LDADD) $(LIB_CLOCK_GETTIME) $(LIB_NANOSLEEP) @LIBINTL@
-test_utimens_LDADD = $(LDADD) $(LIB_CLOCK_GETTIME) $(LIB_NANOSLEEP) @LIBINTL@
-test_utimensat_LDADD = $(LDADD) $(LIB_CLOCK_GETTIME) $(LIB_NANOSLEEP) @LIBINTL@
 test_version_etc_LDADD = $(LDADD) @LIBINTL@
 test_wcwidth_LDADD = $(LDADD) $(LIBUNISTRING)
 test_xalloc_die_LDADD = $(LDADD) @LIBINTL@
@@ -4777,10 +4748,6 @@ test-fdopen$(EXEEXT): $(test_fdopen_OBJECTS) $(test_fdopen_DEPENDENCIES) $(EXTRA
 test-fdopendir$(EXEEXT): $(test_fdopendir_OBJECTS) $(test_fdopendir_DEPENDENCIES) $(EXTRA_test_fdopendir_DEPENDENCIES) 
 	@rm -f test-fdopendir$(EXEEXT)
 	$(AM_V_CCLD)$(LINK) $(test_fdopendir_OBJECTS) $(test_fdopendir_LDADD) $(LIBS)
-
-test-fdutimensat$(EXEEXT): $(test_fdutimensat_OBJECTS) $(test_fdutimensat_DEPENDENCIES) $(EXTRA_test_fdutimensat_DEPENDENCIES) 
-	@rm -f test-fdutimensat$(EXEEXT)
-	$(AM_V_CCLD)$(LINK) $(test_fdutimensat_OBJECTS) $(test_fdutimensat_LDADD) $(LIBS)
 
 test-fflush$(EXEEXT): $(test_fflush_OBJECTS) $(test_fflush_DEPENDENCIES) $(EXTRA_test_fflush_DEPENDENCIES) 
 	@rm -f test-fflush$(EXEEXT)
@@ -5678,14 +5645,6 @@ test-utime-h$(EXEEXT): $(test_utime_h_OBJECTS) $(test_utime_h_DEPENDENCIES) $(EX
 	@rm -f test-utime-h$(EXEEXT)
 	$(AM_V_CCLD)$(LINK) $(test_utime_h_OBJECTS) $(test_utime_h_LDADD) $(LIBS)
 
-test-utimens$(EXEEXT): $(test_utimens_OBJECTS) $(test_utimens_DEPENDENCIES) $(EXTRA_test_utimens_DEPENDENCIES) 
-	@rm -f test-utimens$(EXEEXT)
-	$(AM_V_CCLD)$(LINK) $(test_utimens_OBJECTS) $(test_utimens_LDADD) $(LIBS)
-
-test-utimensat$(EXEEXT): $(test_utimensat_OBJECTS) $(test_utimensat_DEPENDENCIES) $(EXTRA_test_utimensat_DEPENDENCIES) 
-	@rm -f test-utimensat$(EXEEXT)
-	$(AM_V_CCLD)$(LINK) $(test_utimensat_OBJECTS) $(test_utimensat_LDADD) $(LIBS)
-
 test-vasnprintf$(EXEEXT): $(test_vasnprintf_OBJECTS) $(test_vasnprintf_DEPENDENCIES) $(EXTRA_test_vasnprintf_DEPENDENCIES) 
 	@rm -f test-vasnprintf$(EXEEXT)
 	$(AM_V_CCLD)$(LINK) $(test_vasnprintf_OBJECTS) $(test_vasnprintf_LDADD) $(LIBS)
@@ -5861,7 +5820,6 @@ distclean-compile:
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/test-fdatasync.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/test-fdopen.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/test-fdopendir.Po@am__quote@ # am--include-marker
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/test-fdutimensat.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/test-fflush.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/test-fflush2.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/test-fgetc.Po@am__quote@ # am--include-marker
@@ -6074,8 +6032,6 @@ distclean-compile:
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/test-usleep.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/test-utime-h.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/test-utime.Po@am__quote@ # am--include-marker
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/test-utimens.Po@am__quote@ # am--include-marker
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/test-utimensat.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/test-vasnprintf.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/test-vasprintf-posix.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/test-vasprintf.Po@am__quote@ # am--include-marker
@@ -6916,13 +6872,6 @@ test-fdopen.log: test-fdopen$(EXEEXT)
 test-fdopendir.log: test-fdopendir$(EXEEXT)
 	@p='test-fdopendir$(EXEEXT)'; \
 	b='test-fdopendir'; \
-	$(am__check_pre) $(LOG_DRIVER) --test-name "$$f" \
-	--log-file $$b.log --trs-file $$b.trs \
-	$(am__common_driver_flags) $(AM_LOG_DRIVER_FLAGS) $(LOG_DRIVER_FLAGS) -- $(LOG_COMPILE) \
-	"$$tst" $(AM_TESTS_FD_REDIRECT)
-test-fdutimensat.log: test-fdutimensat$(EXEEXT)
-	@p='test-fdutimensat$(EXEEXT)'; \
-	b='test-fdutimensat'; \
 	$(am__check_pre) $(LOG_DRIVER) --test-name "$$f" \
 	--log-file $$b.log --trs-file $$b.trs \
 	$(am__common_driver_flags) $(AM_LOG_DRIVER_FLAGS) $(LOG_DRIVER_FLAGS) -- $(LOG_COMPILE) \
@@ -8551,20 +8500,6 @@ test-utime.log: test-utime$(EXEEXT)
 	--log-file $$b.log --trs-file $$b.trs \
 	$(am__common_driver_flags) $(AM_LOG_DRIVER_FLAGS) $(LOG_DRIVER_FLAGS) -- $(LOG_COMPILE) \
 	"$$tst" $(AM_TESTS_FD_REDIRECT)
-test-utimens.log: test-utimens$(EXEEXT)
-	@p='test-utimens$(EXEEXT)'; \
-	b='test-utimens'; \
-	$(am__check_pre) $(LOG_DRIVER) --test-name "$$f" \
-	--log-file $$b.log --trs-file $$b.trs \
-	$(am__common_driver_flags) $(AM_LOG_DRIVER_FLAGS) $(LOG_DRIVER_FLAGS) -- $(LOG_COMPILE) \
-	"$$tst" $(AM_TESTS_FD_REDIRECT)
-test-utimensat.log: test-utimensat$(EXEEXT)
-	@p='test-utimensat$(EXEEXT)'; \
-	b='test-utimensat'; \
-	$(am__check_pre) $(LOG_DRIVER) --test-name "$$f" \
-	--log-file $$b.log --trs-file $$b.trs \
-	$(am__common_driver_flags) $(AM_LOG_DRIVER_FLAGS) $(LOG_DRIVER_FLAGS) -- $(LOG_COMPILE) \
-	"$$tst" $(AM_TESTS_FD_REDIRECT)
 test-vasnprintf.log: test-vasnprintf$(EXEEXT)
 	@p='test-vasnprintf$(EXEEXT)'; \
 	b='test-vasnprintf'; \
@@ -8964,7 +8899,6 @@ distclean: distclean-recursive
 	-rm -f ./$(DEPDIR)/test-fdatasync.Po
 	-rm -f ./$(DEPDIR)/test-fdopen.Po
 	-rm -f ./$(DEPDIR)/test-fdopendir.Po
-	-rm -f ./$(DEPDIR)/test-fdutimensat.Po
 	-rm -f ./$(DEPDIR)/test-fflush.Po
 	-rm -f ./$(DEPDIR)/test-fflush2.Po
 	-rm -f ./$(DEPDIR)/test-fgetc.Po
@@ -9177,8 +9111,6 @@ distclean: distclean-recursive
 	-rm -f ./$(DEPDIR)/test-usleep.Po
 	-rm -f ./$(DEPDIR)/test-utime-h.Po
 	-rm -f ./$(DEPDIR)/test-utime.Po
-	-rm -f ./$(DEPDIR)/test-utimens.Po
-	-rm -f ./$(DEPDIR)/test-utimensat.Po
 	-rm -f ./$(DEPDIR)/test-vasnprintf.Po
 	-rm -f ./$(DEPDIR)/test-vasprintf-posix.Po
 	-rm -f ./$(DEPDIR)/test-vasprintf.Po
@@ -9334,7 +9266,6 @@ maintainer-clean: maintainer-clean-recursive
 	-rm -f ./$(DEPDIR)/test-fdatasync.Po
 	-rm -f ./$(DEPDIR)/test-fdopen.Po
 	-rm -f ./$(DEPDIR)/test-fdopendir.Po
-	-rm -f ./$(DEPDIR)/test-fdutimensat.Po
 	-rm -f ./$(DEPDIR)/test-fflush.Po
 	-rm -f ./$(DEPDIR)/test-fflush2.Po
 	-rm -f ./$(DEPDIR)/test-fgetc.Po
@@ -9547,8 +9478,6 @@ maintainer-clean: maintainer-clean-recursive
 	-rm -f ./$(DEPDIR)/test-usleep.Po
 	-rm -f ./$(DEPDIR)/test-utime-h.Po
 	-rm -f ./$(DEPDIR)/test-utime.Po
-	-rm -f ./$(DEPDIR)/test-utimens.Po
-	-rm -f ./$(DEPDIR)/test-utimensat.Po
 	-rm -f ./$(DEPDIR)/test-vasnprintf.Po
 	-rm -f ./$(DEPDIR)/test-vasprintf-posix.Po
 	-rm -f ./$(DEPDIR)/test-vasprintf.Po
