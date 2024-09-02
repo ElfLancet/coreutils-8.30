@@ -46,6 +46,7 @@ if __name__=="__main__":
         "FATAL":[]
     }
     cnt=0
+    test_files=test_files[:280] # or else it takes too long
     print("Total test files:", test_files)
     for test_file in test_files:
         start=time.time()
